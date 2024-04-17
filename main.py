@@ -3,11 +3,11 @@ import random
 pygame.init()
 SCREEN_WIDTH =800
 SCREEN_HEIGHT =600
-screen = pygame.display.set_mode((SCREEN_WIDT, SCREEN_HEIGHT))
+screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
 pygame.display.set_caption("Игра Тир")
 icon = pygame.image.load("img/Shooting_gallery_icon.png")
 pygame.display.set_icon(icon)
-target_image = pygame.image.load("img/target_80.png ")
+target_image = pygame.image.load("img/target_80.png")
 target_width = 50
 target_height = 50
 target_x = random.randint(0, SCREEN_WIDTH - target_width)
